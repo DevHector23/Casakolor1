@@ -1,0 +1,31 @@
+body{
+    background-color:white;
+    margin: 0;
+
+}
+nav{
+    position: relative;
+    margin: 0;
+    /* z-index: 1; */
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+nav ul li{
+    display: inline-block; 
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+   
+}
